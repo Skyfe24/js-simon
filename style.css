@@ -6,6 +6,10 @@
 body{
   background-color: cornflowerblue;
 }
+.ms-2{
+color: yellow;
+
+}
 .container{
   width: 100%;
   max-width: 1020px;
@@ -19,9 +23,14 @@ body{
   background-color: rgb(241, 206, 47);
 }
 .palma{
-  width: 200px;
+  width: 400px;
   height: 400px;
 }
+.palma2{
+  width: 200px;
+  height: 200px;
+}
+
 .box{
   flex-basis: calc(100% / 10);
   border: 2px solid salmon;

@@ -26,10 +26,18 @@ function generateNumbers(totalNumbers) {
       grid.appendChild(box);
       setTimeout (() => {
         box.className = "no-box";
-      }, 3000);
+      }, 30000);
       setTimeout (() => {
-        const response = prompt('avanti esci i numeri')
-      }, 4000); 
+        const response = parseInt(prompt('avanti esci i numeri'));
+        if (Numbers.includes(response)){
+        alert(response + '!' + 'Questo lo hai beccato!' );
+        }
+      }, 31000); 
+
+      
+
+
+      
       
      
   }}
